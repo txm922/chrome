@@ -1,0 +1,20 @@
+{
+    "description": "invisible kintone announcement",
+    "manifest_version": 2,
+    "name": "sample 3-1 content script",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.cybozu.com/settings/profile*",
+                "https://*.cybozu.cn/k/*"
+            ],
+            "js": [
+                "inject.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "version": "1.0"
+}
