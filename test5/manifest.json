@@ -1,0 +1,14 @@
+{
+    "description": "html in chrome ext",
+    "manifest_version": 2,
+    "name": "sample 5-1: html",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "many htmls",
+        "default_popup": "popup.html"
+    },
+    "options_page": "option.html",
+    "permissions": [
+        "storage"
+    ]
+}
